@@ -1,0 +1,352 @@
+* {
+	margin: 0;
+	/* this edits EVERYTHING */
+}
+body {
+	background-color:#B0A695 ;
+    font-family: 'Libre Baskerville', serif;
+
+}
+h2{
+	margin-left: 0px;
+}
+/* Copy and paste into each section for styling
+.section
+{
+	border-radius: 0px;
+	/* Adjust corner curvature */
+	/* outline: 2px solid #000; */
+	/* box outline colour */
+
+
+/* Additional CSS styles for specific elements, if needed */
+
+/* Add your styling for the logo and navbar here */
+.logo {
+    float: right;
+    margin: 10px;
+	margin-bottom: 0px;
+	border-radius: 10px;
+	/* Adjust corner curvature */
+	
+	/* box outline colour */
+}
+
+.logo img {
+	
+ max-height:200px;
+ max-width:175px;
+}
+
+header {
+	border-radius: 10px;
+	/* Adjust corner curvature */
+	 outline: 2px solid #000;
+	/* box outline colour */
+    background-attachment: fixed;
+    background-size: cover;
+	background-position: center;
+    height: 100px; /* Set the height to 100px */
+    color: white;
+}
+#recipe1 {
+  border: 2px solid #000; /* Adding a border around the section */
+  padding: 20px; /* Adding padding inside the section to create space */
+  background-color: #F3EEEA;
+  margin: 20px;
+}
+
+.navbar {
+	border-radius: 0px;
+	/* Adjust corner curvature */
+	outline: 2px solid #000;
+	/* box outline colour */
+    background-color: #F3EEEA; /* Set the background color for the navbar */
+    position: fixed;
+    top: 0;
+    width: 100%;
+	display: flex;
+    justify-content: space-around; /* Align logo and links at each end */
+    align-items: center; /* Center items vertically */
+    margin: 0;
+	padding: 0px 10px; /* Add padding to the navbar for spacing */
+	padding-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.navbar a {
+    text-decoration: none; /* Remove underlines from links */
+    color: #000; /* Set the link color to white */
+    font-size: 16px;
+	margin: 0;
+	font-style: italic;
+}
+
+.search-container {
+    margin-left: auto; /* Pushes the search container to the right */
+}
+
+#search-input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    outline: solid;
+    outline-color: #000;
+}
+
+#search-input:focus {
+    outline: none;
+}
+
+#search-form button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+#search-form button:hover {
+    background-color: #555;
+}
+
+/* Add your styling for the recipe content here */
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.about-section {
+	border-radius: 0px;
+	/* Adjust corner curvature */
+	outline: 2px solid #000;
+	/* box outline colour */
+    background-color: #F3EEEA;
+    padding: 20px;
+	padding-top: 20px;
+    border: 1px solid #ccc;
+    flex-basis: 80%; /* 80% width for the "About Us" section */
+    margin-right: 10px; /* Add margin for space */
+	margin-top: 100px;
+	margin-left: 2px;
+}
+
+.directory-section {
+	border-radius: 0px;
+	/* Adjust corner curvature */
+	outline: 2px solid #000;
+	/* box outline colour */
+    background-color: #F3EEEA;
+    padding: 20px;
+    border: 1px solid #ccc;
+    flex-basis: 20%; /* 20% width for the recipe directory section */
+	margin-top: 100px;
+	margin-right: 2px;
+}
+
+.about-section h2,
+
+.directory-section h2 {
+
+    font-size: 20px;
+    color: #333;
+}
+
+.about-section p,
+.directory-section ul {
+
+    font-size: 16px;
+    color: #555;
+}
+.directory-section a
+{
+	color: #000;
+	text-decoration: none;
+}
+.video-box
+{
+    outline: solid;
+    outline-color: #000;
+}
+.instructions {
+	border-radius: 0px;
+	/* Adjust corner curvature */
+	outline: 2px solid #000;
+	/* box outline colour */
+    padding: 20px;
+    background-color: #EBE3D5;
+    border: 1px solid #ccc;
+    margin: 20px;
+}
+
+.step {
+	border-radius: 0px;
+	/* Adjust corner curvature */
+	outline: 2px solid #000;
+	/* box outline colour */
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.step h3 {
+    font-size: 18px;
+    color: #333;
+}
+
+.step p {
+    font-size: 14px;
+    color: #555;
+}
+
+.step img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 10px;
+}
+/* Add styles for your main content and footer as needed */
+.directory {
+    background-color: #EBE3D5;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.directory h2 {
+    font-size: 20px;
+    color: #333;
+}
+
+.directory ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.directory li {
+    margin: 10px 0;
+}
+
+.introduction {
+    background-color: #EBE3D5;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.introduction h2 {
+    font-size: 20px;
+    color: #333;
+}
+
+.introduction p {
+    font-size: 16px;
+    color: #555;
+}
+.recipe1 h2 {
+text-align: center;
+	
+}
+
+
+.video-container {
+    display: inline;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Make the container full viewport height */
+    background-color: #EBE3D5; /* Add a background color to the video container */
+	border-radius: 0px;
+	/* Adjust corner curvature */
+	outline: 2px solid #000;
+	/* box outline colour */
+}
+
+.video-box {
+    max-width: 32rem; /* Set the maximum width for the 16:9 box */
+	margin: 0 auto; /* Center the video box horizontally */
+}
+
+.video-box iframe {
+    width: 100%; /* Make the video fill the box width */
+    max-width: 100%; /* Ensure it doesn't exceed its container's width */
+    height: 18rem; /* Set the height to maintain the 16:9 aspect ratio */
+	margin: 0px auto;
+}
+
+.transcript {
+    max-height: 10rem; /* Set the maximum height for the transcript */
+    overflow-y: auto;  /* Add vertical scrollbar if content overflows */
+    margin:20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+	border-radius: 0px;
+	/* Adjust corner curvature */
+	outline: 2px solid #000;
+	/* box outline colour */
+	background-color: #EBE3D5;
+}
+
+.transcript h3 {
+    font-size: 18px;
+    color: #333;
+	text-decoration: underline;
+}
+
+.transcript p {
+    font-size: 14px;
+    color: #555;
+}
+
+.recipe-gallery {
+    background-color: #EBE3D5;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+	/* Adjust corner curvature */
+	outline: 2px solid #000;
+	/* box outline colour */
+    margin: 20px;
+}
+
+.recipe-gallery h2 {
+    font-size: 20px;
+    color: #333;
+}
+
+.recipe-thumbnail {
+    
+	display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.recipe-thumbnail img {
+    max-width: 150px;
+    height: auto;
+}
+
+.recipe-thumbnail p {
+    font-size: 16px;
+    color: #555;
+    text-align: center;
+}
+.link
+{
+	color:#000;
+}
