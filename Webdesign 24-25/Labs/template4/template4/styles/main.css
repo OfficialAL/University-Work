@@ -1,0 +1,118 @@
+html, body {margin:0; border:0; padding:0;}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffcc;
+}
+#wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+header {
+    background-color: #0000ff;
+    color: #FFFFFF;
+    padding: 10px;
+    font-family: Algerian, Arial, Helvetica, sans-serif;
+    font-family: 'Tangerine', Arial, Helvetica, sans-serif;
+}
+nav.nav1 li { width:100%; display:block; border-right: 0;
+    min-height:44px;}
+    aside {width: 98%;}
+    article {width: 98%;}
+    
+nav.nav1
+{background-color: orange; color: white;
+font-family: Verdana, Geneva, sans-serif;
+font-size:80%;
+padding-left:10%;
+padding-right:10%;
+}
+
+nav.nav1 ul {list-style: none; width: 90%; padding:1%; margin:0; }
+nav.nav1 li {display:inline; border-right: 2px solid #00f; }
+nav.nav1 a {color: #ffffff; text-decoration:none; text-align: center; padding: 1%;}
+nav.nav1 a:hover {color:#0000ff;}
+
+input#menu, label {display: none;}
+
+section {
+    background-color: #ffcc66;
+    overflow: auto;
+    width: 100%;
+}
+
+aside {
+    width: 23%;
+    float: left;
+    background-color: #ccff66;
+    padding: 1%;
+}
+article {
+    width: 73%;
+    float: left;
+    background-color: #ccccff;
+    padding: 1%;
+}
+article img {
+    width:50%; 
+    height:auto; 
+    margin-right: 1%; 
+    float:left;
+}
+
+footer {
+    background-color: #806d59;
+    color: #FFFF00;
+    padding: 10px;
+}
+/* END OF MAIN STYLING */
+/* */
+/* Media Query Overide Mobile */
+/* Media Query Overide Mobile */
+@media only screen and (max-width:599px)
+{
+header {background-color: #ff0000;}
+nav.nav1 li { width:100%; display:block; border-right: 0;
+    min-height:44px;}
+    aside {width: 98%;}
+    article {width: 98%;}    
+article img {width:100%; padding-right:0; }
+.collapsible-menu {
+    background-color: yellow;
+    padding: 0px 20px;
+    }
+    .collapsible-menu label {
+    font-size: 120%;
+    display: block;
+    cursor: pointer;
+    background: url(../graphics/menu.png) no-repeat left center;
+    padding: 10px 0 10px 50px;
+    }
+    input:checked +label {
+    background-image: url(../graphics/close.png);
+    }
+    nav.nav1 {
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 0 0 50px;
+    }
+    /* Toggle Effect */
+    input:checked ~ label {
+    background-image: url(../graphics/close.png);
+    }
+    input:checked ~ nav.nav1 {
+    max-height: 100%;
+    }
+}
+/* overrides css for mobile views up to 599px wide */
+/* END OF MOBILE OVERIDE STYLING */
+/* */
+/* Media Query Overide Tablet */
+/* Media Query Overide Tablet */
+@media only screen and (min-width:600px) and (max-width:1199px)
+{
+header{background-color: #00ff00;}
+}
+/* overrides css for tablet/small desktop views between 600px and
+1199px wide */
+/* END OF TABLET OVERIDE MAIN STYLING */

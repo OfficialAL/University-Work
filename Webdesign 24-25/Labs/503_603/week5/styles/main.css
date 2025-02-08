@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffcc;
+}
+#wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+header {
+    background-color: #0000ff;
+    color: #FFFFFF;
+    padding: 10px;
+    font-family: Algerian, Arial, Helvetica, sans-serif;
+    font-family: 'Tangerine', Arial, Helvetica, sans-serif;
+}
+nav {
+    background-color: #ccffff;
+    height: 40px;
+    padding: 1%;
+}
+section {
+    background-color: #ffcc66;
+    overflow: auto;
+    width: 100%;
+}
+aside {
+    width: 23%;
+    float: left;
+    background-color: #ccff66;
+    padding: 1%;
+}
+article {
+    width: 73%;
+    float: left;
+    background-color: #ccccff;
+    padding: 1%;
+}
+footer {
+    background-color: #806d59;
+    color: #FFFF00;
+    padding: 10px;
+}
