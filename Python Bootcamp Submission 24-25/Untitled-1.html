@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Submissions</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+    <div class="flex">
+        
+<!-- Sidebar -->
+<div class="w-64 min-h-screen flex flex-col" style="background-color: #1a202c !important; color: #ffffff !important; font-size: 16px; font-family: Arial; font-style: normal;">
+    <div class="w-64 bg-teal-700 text-white p-6 min-h-screen flex flex-col" style="background-color: #1a202c !important; color: #ffffff !important;">
+        <img src="bcu_logo.png" alt="Logo" class="mr-3"> <br>
+        <h2 class="text-xl font-semibold mb-6">User Dashboard</h2>
+        <ul>
+            <li class="mb-4">
+                <a href="user_dashboard.php" style="color: #ffffff !important;">Dashboard</a>
+            </li>
+            <li class="mb-4">
+                <a href="submissions.php" style="color: #ffffff !important;">Your Submission</a>
+            </li>
+            <li class="mb-4">
+                <a href="leaderboard.php" style="color: #ffffff !important;">Leaderboard</a>
+            </li>
+            <li class="mb-4"><a href="/material/PythonProgrammingBootcamp2024.pdf" style="color: ;" class="hover:text-teal-100">Study Material</a></li>
+            <li class="mb-4">
+                <a href="user_settings.php" style="color: #ffffff !important;">Settings</a>
+            </li>
+            <li class="mb-4">
+                <a href="logout.php" style="color: #ffffff !important;">Logout</a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+        <!-- Main Content Area -->
+        <div class="flex-1 p-6">
+            <header class="text-xl font-semibold text-gray-800 mb-6">Your Submissions</header>
+
+            <div class="overflow-x-auto">
+                <table class="min-w-full table-auto bg-white shadow-lg rounded-lg">
+                    <thead>
+                        <tr class="bg-teal-500 text-white">
+                            <th class="px-4 py-2">Challenge Title</th>
+                            <th class="px-4 py-2">Points Awarded</th>
+                            <th class="px-4 py-2">Feedback</th>
+                            <th class="px-4 py-2">Submitted Solution</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- ...existing code... -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
